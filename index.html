@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Thomas and Friends Train Schedule</title>
+</head>
+
+<body>
+    <div class="jumbotron">
+        <h1 class='primaryHeader' id='firstHeader'>Thomas and Friends Train Schedule</h1>
+    </div>
+    <div class="container bigBox">
+        <div class="container sectionBox boxOne">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3 class="secondaryHeader">Current Train Schedule</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <table class="table">
+                        <tr class="tableHeaders" id="tHeaders">
+                            <th>Train Name</th>
+                            <th>Destination</th>
+                            <th>Frequency</th>
+                            <th>Next Arrival</th>
+                            <th>Minutes til Next Train</th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="container sectionBox boxTwo">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3 class='secondaryHeader'>Add A Train</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <form class="userInputOne">
+                        <div class="form-group">
+                            <label for="trainName">Train Name</label>
+                            <br>
+                            <input class"allUserInputs" id="trainName" type="text" value="Enter Train Name">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <form class="userInputTwo">
+                        <div class="form-group">
+                            <label for="destination">Destination</label>
+                            <br>
+                            <input class"allUserInputs" id="destination" type="text" value="Enter Destination">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <form class="userInputThree">
+                        <div class="form-group">
+                            <label for="firstTime">First Train Time</label>
+                            <br>
+                            <input class"allUserInputs" id="firstTime" type="number" value="user-input" placeholder="Enter First Train Time (HH:mm - 24 Hour Clock)">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <form class="userInputFour">
+                        <div class="form-group">
+                            <label for="frequency">Frequency</label>
+                            <br>
+                            <input class"allUserInputs" id="frequency" type="number" value="user-input" placeholder="Enter Frequency(Minutes)">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/4.10.1/firebase.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

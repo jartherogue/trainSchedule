@@ -1,0 +1,20 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+.jumbotron {
+    width:100%;
+    text-align: center;
+    color: #006cb0;
+    background-color: #237827;
+}
+.secondaryHeader {
+    color: white;
+    background-color: #006CB0;
+}
+.sectionBox {
+    border: solid 2px #da312a;
+}
+.allUserInputs {
+    size: 100%;
+}
