@@ -69,7 +69,7 @@
                         <div class="form-group">
                             <label for="firstTime">First Train Time</label>
                             <br>
-                            <input class"allUserInputs" id="firstTime" type="number" value="user-input" placeholder="Enter First Train Time (HH:mm - 24 Hour Clock)">
+                            <input class"allUserInputs" id="firstTime" type="time" value = "" placeholder="Enter First Train Time (HH:mm - 24 Hour Clock)">
                         </div>
                     </form>
                 </div>
@@ -80,14 +80,20 @@
                         <div class="form-group">
                             <label for="frequency">Frequency</label>
                             <br>
-                            <input class"allUserInputs" id="frequency" type="number" value="user-input" placeholder="Enter Frequency(Minutes)">
+                            <input class"allUserInputs" id="frequency" type="number" placeholder="Enter Frequency(Minutes)">
                         </div>
                     </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <button class='btn btn-primary' id='submitButton'>Submit Form Info</button>
                 </div>
             </div>
         </div>
     </div>
     <script src="https://www.gstatic.com/firebasejs/4.10.1/firebase.js"></script>
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="app.js"></script>
 </body>
