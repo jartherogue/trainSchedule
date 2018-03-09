@@ -1,12 +1,25 @@
 html, body {
     height: 100%;
     width: 100%;
+    background-image: url("thomasBG.png");
 }
 .jumbotron {
     width:100%;
     text-align: center;
     color: #006cb0;
-    background-color: #237827;
+    background-color: #da312a;
+    font-family: 'Bree Serif', serif;
+}
+.table {
+    color: black;
+    font-size: 24px; 
+}
+.tableHeaders {
+    background-color: #da312a;
+}
+.dataInput {
+    background-color: rgba(255,255,255, 0.5);
+    
 }
 .secondaryHeader {
     color: white;
